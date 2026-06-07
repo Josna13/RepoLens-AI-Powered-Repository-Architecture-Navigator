@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://repolens-ai-powered-repository.onrender.com/api';
 
 export const analyzeRepository = async (url) => {
   try {
